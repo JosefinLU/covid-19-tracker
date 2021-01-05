@@ -1,0 +1,35 @@
+/*
+importaint to name css files in react with module - otherwise
+the syling will be on all folders in components
+*/
+/*
+!important property in CSS means that all subsequent rules on an element are to be ignored, 
+and the rule denoted by ! important is to be applied. This rule overrides all
+ previous styling rules ​-- the ! important property increases its priority.
+*/
+
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+  .card {
+    margin: 2 0 !important;
+  }
+}

@@ -1,0 +1,11 @@
+/*
+!important property in CSS means that all subsequent rules on an element are to be ignored, 
+and the rule denoted by ! important is to be applied. This rule overrides all
+ previous styling rules ​-- the ! important property increases its priority.
+*/
+
+.formControl {
+  width: 30%;
+  margin-bottom: 30px !important;
+  margin-top: 30px !important;
+}
